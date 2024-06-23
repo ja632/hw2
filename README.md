@@ -39,5 +39,6 @@ main.o: main.cpp BMI.h
 clean:
 	rm BMI *.o
 ```
+-  並在terminal 上打$make，執行Makefile
 ## 3執行程式
 在terminal輸入``./BMI.exe``後，程式會將你事先準備好的檔案(.txt)，拿去運算，算完之後，會將算完的BMI跟評價傳回到另一個準備好的檔案(.txt)，在這個檔案可以看到執行結果。
